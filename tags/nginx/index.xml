@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kingram</title>
-    <link>https://k1ngram4.github.io/</link>
-    <description>Recent content on Kingram</description>
+    <title>nginx on Kingram</title>
+    <link>https://k1ngram4.github.io/tags/nginx/</link>
+    <description>Recent content in nginx on Kingram</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hans</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://k1ngram4.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://k1ngram4.github.io/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo &#43; nginx 搭建博客记录</title>
       <link>https://k1ngram4.github.io/posts/hugo_nginx_blog/</link>
@@ -24,17 +24,6 @@ hugo v0.85.0-724D5DB5 linux/amd64 BuildDate=2021-07-05T10:46:28Z VendorInfo=gohu
 创建blog站点 在当前目录执行命令创建blog站点
 hugo new site myblog这个myblog就是项目的名字了，创建的目录如下
 ├── archetypes│ └── default.md├── config.toml # 博客站点的配置文件├── content # 博客文章所在目录├── data ├── layouts # 网站布局├── static # 一些静态内容└── themes # 博客主题我们的博客文章就放在content目录下的posts中，只需要按照Markdown格式编写，hugo就会读取到文章然后展示在博客中。</description>
-    </item>
-    
-    <item>
-      <title>关于</title>
-      <link>https://k1ngram4.github.io/about/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://k1ngram4.github.io/about/</guid>
-      <description>你好，我是kingram
-欢迎来到我的博客
-联系方式：  Github：https://github.com/K1ngram4 QQ：390659505 邮箱：kingram@163.com  </description>
     </item>
     
   </channel>
