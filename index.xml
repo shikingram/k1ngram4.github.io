@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kingram</title>
-    <link>https://kingram.top/</link>
+    <link>http://kingram.top/</link>
     <description>Recent content on Kingram</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hans</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kingram.top/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://kingram.top/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo &#43; nginx 搭建博客记录</title>
-      <link>https://kingram.top/posts/hugo_nginx_blog/</link>
+      <link>http://kingram.top/posts/hugo_nginx_blog/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kingram.top/posts/hugo_nginx_blog/</guid>
+      <guid>http://kingram.top/posts/hugo_nginx_blog/</guid>
       <description>经常逛网站能看到那种极简的博客，引入眼帘的不是花里胡哨的图片和样式，而是黑白搭配，简简单单的文章标题，很吸引我。正好看到煎鱼佬也在用这种风格的博客，于是卸载了我的wordpress开始抄袭
  Hugo简介 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
 准备和环境 我直接在我的阿里云服务器上使用hugo了，环境如下：
@@ -28,10 +28,10 @@ hugo new site myblog这个myblog就是项目的名字了，创建的目录如�
     
     <item>
       <title>关于</title>
-      <link>https://kingram.top/about/</link>
+      <link>http://kingram.top/about/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kingram.top/about/</guid>
+      <guid>http://kingram.top/about/</guid>
       <description>你好，我是kingram
 欢迎来到我的博客
 联系方式：  Github：https://github.com/K1ngram4 QQ：390659505 邮箱：kingram@163.com  </description>

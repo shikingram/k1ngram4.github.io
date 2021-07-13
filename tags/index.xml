@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kingram</title>
-    <link>https://kingram.top/tags/</link>
+    <link>http://kingram.top/tags/</link>
     <description>Recent content in Tags on Kingram</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hans</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kingram.top/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://kingram.top/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>blog</title>
-      <link>https://kingram.top/tags/blog/</link>
+      <link>http://kingram.top/tags/blog/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kingram.top/tags/blog/</guid>
+      <guid>http://kingram.top/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nginx</title>
-      <link>https://kingram.top/tags/nginx/</link>
+      <link>http://kingram.top/tags/nginx/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kingram.top/tags/nginx/</guid>
+      <guid>http://kingram.top/tags/nginx/</guid>
       <description></description>
     </item>
     

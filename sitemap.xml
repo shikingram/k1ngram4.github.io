@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kingram.top/tags/blog/</loc>
+    <loc>http://kingram.top/tags/blog/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kingram.top/posts/hugo_nginx_blog/</loc>
+    <loc>http://kingram.top/posts/hugo_nginx_blog/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kingram.top/</loc>
+    <loc>http://kingram.top/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kingram.top/tags/nginx/</loc>
+    <loc>http://kingram.top/tags/nginx/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kingram.top/posts/</loc>
+    <loc>http://kingram.top/posts/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kingram.top/tags/</loc>
+    <loc>http://kingram.top/tags/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kingram.top/about/</loc>
+    <loc>http://kingram.top/about/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url>
 </urlset>

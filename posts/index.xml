@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Kingram</title>
-		<link>https://kingram.top/posts/</link>
+		<link>http://kingram.top/posts/</link>
 		<description>Recent content in Posts on Kingram</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>zh-hans</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
 		<lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate>
-		<atom:link href="https://kingram.top/posts/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://kingram.top/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>hugo &#43; nginx 搭建博客记录</title>
-			<link>https://kingram.top/posts/hugo_nginx_blog/</link>
+			<link>http://kingram.top/posts/hugo_nginx_blog/</link>
 			<pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
 			
-			<guid>https://kingram.top/posts/hugo_nginx_blog/</guid>
+			<guid>http://kingram.top/posts/hugo_nginx_blog/</guid>
 			<description>经常逛网站能看到那种极简的博客，引入眼帘的不是花里胡哨的图片和样式，而是黑白搭配，简简单单的文章标题，很吸引我。正好看到煎鱼佬也在用这种风格的博客，于是卸载了我的wordpress开始抄袭
  Hugo简介 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
 准备和环境 我直接在我的阿里云服务器上使用hugo了，环境如下：
@@ -62,7 +62,7 @@ mv hugo /usr/bin/
 ├── layouts             # 网站布局
 ├── static              # 一些静态内容
 └── themes              # 博客主题
-</code></pre><p>我们的博客文章就放在content目录下的posts中，只需要按照Markdown格式编写，hugo就会读取到文章然后展示在博客中。</p>
+</code></pre><p>我们的博客文章就放在<code>content</code>目录下的<code>posts</code>中，只需要按照<code>Markdown</code>格式编写，<code>hugo</code>就会读取到文章然后展示在博客中。</p>
 <h3 id="安装主题">安装主题</h3>
 <p>不用主题是无法使用<code>hugo</code>的，我这里用的是<code>hermit</code>主题，开发者是<code>Track3</code>他的<a href="https://ojbk.im/">博客地址</a>，然后我魔改了下，抄袭了煎鱼佬的样式，改为了黑白结合的。</p>
 <p>安装依次执行以下命令：</p>
@@ -70,11 +70,11 @@ mv hugo /usr/bin/
 # clone到
 git clone https://github.com/Track3/hermit.git ./themes/hermit
 </code></pre><h3 id="使用主题">使用主题</h3>
-<p>将hermit主题中exampleSite目录下的内容拷贝到当前目录myblog下</p>
+<p>将<code>hermit</code>主题中<code>exampleSite</code>目录下的内容拷贝到当前目录<code>myblog</code>下</p>
 <pre><code>cp themes/hermit/exampleSite/* ./ -r
 </code></pre><p>可以通过修改<code>config.toml</code>文件来更改配置</p>
 <p>贴上我的<code>config.toml</code>文件配置，是抄了煎鱼佬(#^.^#)</p>
-<pre><code>baseURL = &quot;https://k1ngram4.github.io&quot;
+<pre><code>baseURL = &quot;http://kingram.top&quot;
 languageCode = &quot;zh-hans&quot;
 defaultContentLanguage = &quot;en&quot;
 title = &quot;Kingram&quot;
@@ -157,7 +157,7 @@ googleAnalytics = &quot;UA-166045776-1&quot;
     url = &quot;about/&quot;
     weight = 20
 
-</code></pre><p>设置好配置文件后在<code>myblog</code>目录下执行<code>hugo</code>即可生成public文件夹，这个文件夹就是我们站点的根目录文件夹，后面nginx中部署时指定的根目录也是这个。如果想使用<code>github pages</code>只要将这个目录放在<code>github</code>托管，每次改完提交即可。</p>
+</code></pre><p>设置好配置文件后在<code>myblog</code>目录下执行<code>hugo</code>即可生成public文件夹，这个文件夹就是我们站点的根目录文件夹，后面<code>nginx</code>中部署时指定的根目录也是这个。如果想使用<code>github pages</code>只要将这个目录放在<code>github</code>托管，每次改完提交即可。</p>
 <pre><code>hugo
 </code></pre><h2 id="使用nginx部署">使用Nginx部署</h2>
 <h3 id="安装nginx">安装Nginx</h3>
@@ -187,7 +187,7 @@ vi default.conf
 <pre><code>systemctl start nginx
 </code></pre><p>运行以下命令设置Nginx服务开机自启动。</p>
 <pre><code>systemctl enable nginx
-</code></pre><p>这样服务端Nginx就配置完成了，要想通过kingram.top访问，还需要关闭防火墙（或者配置端口）、配置dns解析、配置阿里云端口安全组（80端口）等操作，我是直接关了防火墙</p>
+</code></pre><p>这样服务端<code>Nginx</code>就配置完成了，要想通过<code>kingram.top</code>访问，还需要关闭防火墙（或者配置端口）、配置dns解析、配置阿里云端口安全组（80端口）等操作，我是直接关了防火墙</p>
 <h3 id="关闭防火墙">关闭防火墙</h3>
 <p>永久关闭防火墙：</p>
 <pre><code>systemctl disable firewalld
