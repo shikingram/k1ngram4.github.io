@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kingram</title>
-    <link>https://kingram.top/</link>
+    <link>https://k1ngram4.github.io/</link>
     <description>Recent content on Kingram</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hans</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 18 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kingram.top/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://k1ngram4.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于</title>
-      <link>https://kingram.top/about/</link>
+      <link>https://k1ngram4.github.io/about/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kingram.top/about/</guid>
+      <guid>https://k1ngram4.github.io/about/</guid>
       <description>你好，我是kingram
 欢迎来到我的博客
 联系方式：  Github：https://github.com/K1ngram4 QQ：390659505 邮箱：kingram@163.com  </description>
@@ -21,10 +21,10 @@
     
     <item>
       <title>我的第一篇博客</title>
-      <link>https://kingram.top/posts/hellowrld/</link>
+      <link>https://k1ngram4.github.io/posts/hellowrld/</link>
       <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kingram.top/posts/hellowrld/</guid>
+      <guid>https://k1ngram4.github.io/posts/hellowrld/</guid>
       <description>Helloworld 你好 这是第一篇章</description>
     </item>
     
