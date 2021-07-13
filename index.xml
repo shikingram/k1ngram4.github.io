@@ -6,8 +6,7 @@
     <description>Recent content on Kingram</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-hans</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 18 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://k1ngram4.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://k1ngram4.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于</title>
       <link>https://k1ngram4.github.io/about/</link>
@@ -20,12 +19,19 @@
     </item>
     
     <item>
-      <title>我的第一篇博客</title>
-      <link>https://k1ngram4.github.io/posts/hellowrld/</link>
-      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
+      <title></title>
+      <link>https://k1ngram4.github.io/posts/first_blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://k1ngram4.github.io/posts/hellowrld/</guid>
-      <description>Helloworld 你好 这是第一篇章</description>
+      <guid>https://k1ngram4.github.io/posts/first_blog/</guid>
+      <description>--- title: &amp;#34;hugo + nginx 搭建博客记录&amp;#34; # 文章标题 author: &amp;#34;Kingram&amp;#34; # 文章作者 date: 2021-07-13 # 文章编写日期 lastmod: 2021-07-13 # 文章修改日期 tags = [ # 文章所属标签 &amp;#34;blog&amp;#34;, &amp;#34;nginx&amp;#34; ] ---  经常逛网站能看到那种极简的博客，引入眼帘的不是花里胡哨的图片和样式，而是黑白搭配，简简单单的文章标题，很吸引我。正好看到煎鱼佬也在用这种风格的博客，于是卸载了我的wordpress开始抄袭
+ Hugo简介 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
+准备和环境 我直接在我的阿里云服务器上使用hugo了，环境如下：
+ 操作系统：公共镜像CentOS 8.1 64位 Nginx版本：Nginx 1.16.1 域名：kingram.top 阿里云服务器：8.136.204.132  Hugo使用 安装Hugo 由于我用的是Linux系统，直接wget下载安装就好了，其他系统参考Hugo中文文档其他版本参考Hugo Releases
+cd ~ wget https://github.com/gohugoio/hugo/releases/download/v0.85.0/hugo_0.85.0_Linux-64bit.tar.gz tar -zxvf hugo_0.85.0_Linux-64bit.tar.gz mv hugo /usr/bin/ 检查是否安装成功
+hugo version输出
+hugo v0.85.0-724D5DB5 linux/amd64 BuildDate=2021-07-05T10:46:28Z VendorInfo=gohugoio就说明安装成功啦
+创建blog站点 在当前目录执行命令创建blog站点</description>
     </item>
     
   </channel>
