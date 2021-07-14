@@ -6,8 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta itemprop="name" content="hugo &#43; nginx 搭建博客记录">
-<meta itemprop="description" content="经常逛网站能看到那种极简的博客，引入眼帘的不是花里胡哨的图片和样式，而是黑白搭配，简简单单的文章标题，很吸引我。正好看到煎鱼佬也在用这种风格的博客，于是卸载了我的wordpress开始抄袭
- Hugo简介 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
+<meta itemprop="description" content="Hugo简介 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
 准备和环境 我直接在我的阿里云服务器上使用hugo了，环境如下：
  操作系统：公共镜像CentOS 8.1 64位 Nginx版本：Nginx 1.16.1 域名：kingram.top 阿里云服务器：8.136.204.132  Hugo使用 安装Hugo 由于我用的是Linux系统，直接wget下载安装就好了，其他系统参考Hugo中文文档其他版本参考Hugo Releases
 cd ~ wget https://github.com/gohugoio/hugo/releases/download/v0.85.0/hugo_0.85.0_Linux-64bit.tar.gz tar -zxvf hugo_0.85.0_Linux-64bit.tar.gz mv hugo /usr/bin/ 检查是否安装成功
@@ -17,10 +16,9 @@ hugo v0.85.0-724D5DB5 linux/amd64 BuildDate=2021-07-05T10:46:28Z VendorInfo=gohu
 hugo new site myblog这个myblog就是项目的名字了，创建的目录如下
 ├── archetypes│ └── default.md├── config.toml # 博客站点的配置文件├── content # 博客文章所在目录├── data ├── layouts # 网站布局├── static # 一些静态内容└── themes # 博客主题我们的博客文章就放在content目录下的posts中，只需要按照Markdown格式编写，hugo就会读取到文章然后展示在博客中。"><meta itemprop="datePublished" content="2021-07-13T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-07-13T00:00:00+00:00" />
-<meta itemprop="wordCount" content="477">
+<meta itemprop="wordCount" content="476">
 <meta itemprop="keywords" content="blog,nginx," /><meta property="og:title" content="hugo &#43; nginx 搭建博客记录" />
-<meta property="og:description" content="经常逛网站能看到那种极简的博客，引入眼帘的不是花里胡哨的图片和样式，而是黑白搭配，简简单单的文章标题，很吸引我。正好看到煎鱼佬也在用这种风格的博客，于是卸载了我的wordpress开始抄袭
- Hugo简介 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
+<meta property="og:description" content="Hugo简介 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
 准备和环境 我直接在我的阿里云服务器上使用hugo了，环境如下：
  操作系统：公共镜像CentOS 8.1 64位 Nginx版本：Nginx 1.16.1 域名：kingram.top 阿里云服务器：8.136.204.132  Hugo使用 安装Hugo 由于我用的是Linux系统，直接wget下载安装就好了，其他系统参考Hugo中文文档其他版本参考Hugo Releases
 cd ~ wget https://github.com/gohugoio/hugo/releases/download/v0.85.0/hugo_0.85.0_Linux-64bit.tar.gz tar -zxvf hugo_0.85.0_Linux-64bit.tar.gz mv hugo /usr/bin/ 检查是否安装成功
@@ -36,8 +34,7 @@ hugo new site myblog这个myblog就是项目的名字了，创建的目录如�
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="hugo &#43; nginx 搭建博客记录"/>
-<meta name="twitter:description" content="经常逛网站能看到那种极简的博客，引入眼帘的不是花里胡哨的图片和样式，而是黑白搭配，简简单单的文章标题，很吸引我。正好看到煎鱼佬也在用这种风格的博客，于是卸载了我的wordpress开始抄袭
- Hugo简介 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
+<meta name="twitter:description" content="Hugo简介 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
 准备和环境 我直接在我的阿里云服务器上使用hugo了，环境如下：
  操作系统：公共镜像CentOS 8.1 64位 Nginx版本：Nginx 1.16.1 域名：kingram.top 阿里云服务器：8.136.204.132  Hugo使用 安装Hugo 由于我用的是Linux系统，直接wget下载安装就好了，其他系统参考Hugo中文文档其他版本参考Hugo Releases
 cd ~ wget https://github.com/gohugoio/hugo/releases/download/v0.85.0/hugo_0.85.0_Linux-64bit.tar.gz tar -zxvf hugo_0.85.0_Linux-64bit.tar.gz mv hugo /usr/bin/ 检查是否安装成功
@@ -97,11 +94,9 @@ hugo new site myblog这个myblog就是项目的名字了，创建的目录如�
 				<h1>hugo &#43; nginx 搭建博客记录</h1>
 			</header>
 			<div class="content">
-				<blockquote>
-<p>经常逛网站能看到那种极简的博客，引入眼帘的不是花里胡哨的图片和样式，而是黑白搭配，简简单单的文章标题，很吸引我。正好看到煎鱼佬也在用这种风格的博客，于是卸载了我的wordpress开始抄袭</p>
-</blockquote>
+				<!-- raw HTML omitted -->
 <h2 id="hugo简介">Hugo简介<a href="#hugo简介" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
-<p>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。</p>
+<p><code>Hugo</code>是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。</p>
 <h2 id="准备和环境">准备和环境<a href="#准备和环境" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 <p>我直接在我的阿里云服务器上使用hugo了，环境如下：</p>
 <ul>
@@ -112,7 +107,7 @@ hugo new site myblog这个myblog就是项目的名字了，创建的目录如�
 </ul>
 <h2 id="hugo使用">Hugo使用<a href="#hugo使用" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 <h3 id="安装hugo">安装Hugo<a href="#安装hugo" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
-<p>由于我用的是Linux系统，直接wget下载安装就好了，其他系统参考<a href="https://www.gohugo.org/">Hugo中文文档</a>其他版本参考<a href="https://github.com/spf13/hugo/releases">Hugo Releases</a></p>
+<p>由于我用的是<code>Linux</code>系统，直接<code>wget</code>下载安装就好了，其他系统参考<a href="https://www.gohugo.org/">Hugo中文文档</a>其他版本参考<a href="https://github.com/spf13/hugo/releases">Hugo Releases</a></p>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> ~
 wget https://github.com/gohugoio/hugo/releases/download/v0.85.0/hugo_0.85.0_Linux-64bit.tar.gz
 tar -zxvf hugo_0.85.0_Linux-64bit.tar.gz
@@ -125,7 +120,7 @@ mv hugo /usr/bin/
 <h3 id="创建blog站点">创建blog站点<a href="#创建blog站点" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
 <p>在当前目录执行命令创建blog站点</p>
 <pre><code>hugo new site myblog
-</code></pre><p>这个myblog就是项目的名字了，创建的目录如下</p>
+</code></pre><p>这个<code>myblog</code>就是项目的名字了，创建的目录如下</p>
 <pre><code>├── archetypes
 │   └── default.md
 ├── config.toml         # 博客站点的配置文件
@@ -134,9 +129,9 @@ mv hugo /usr/bin/
 ├── layouts             # 网站布局
 ├── static              # 一些静态内容
 └── themes              # 博客主题
-</code></pre><p>我们的博客文章就放在<code>content</code>目录下的<code>posts</code>中，只需要按照<code>Markdown</code>格式编写，<code>hugo</code>就会读取到文章然后展示在博客中。</p>
+</code></pre><p>我们的博客文章就放在<code>content</code>目录下的<code>posts</code>中，只需要按照Markdown格式编写，hugo就会读取到文章然后展示在博客中。</p>
 <h3 id="安装主题">安装主题<a href="#安装主题" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
-<p>不用主题是无法使用<code>hugo</code>的，我这里用的是<code>hermit</code>主题，开发者是<code>Track3</code>他的<a href="https://ojbk.im/">博客地址</a>，然后我魔改了下，抄袭了煎鱼佬的样式，改为了黑白结合的。</p>
+<p>不用主题是无法使用hugo的，我这里用的是<code>hermit</code>主题，开发者是<a href="https://ojbk.im/">Track3</a>，然后我魔改了下，抄袭了煎鱼佬的样式，改为了黑白结合的。</p>
 <p>安装依次执行以下命令：</p>
 <pre><code>cd myblog 
 # clone到
@@ -229,7 +224,7 @@ googleAnalytics = &quot;UA-166045776-1&quot;
     url = &quot;about/&quot;
     weight = 20
 
-</code></pre><p>设置好配置文件后在<code>myblog</code>目录下执行<code>hugo</code>即可生成public文件夹，这个文件夹就是我们站点的根目录文件夹，后面<code>nginx</code>中部署时指定的根目录也是这个。如果想使用<code>github pages</code>只要将这个目录放在<code>github</code>托管，每次改完提交即可。</p>
+</code></pre><p>设置好配置文件后在<code>myblog</code>目录下执行<code>hugo</code>命令即可生成<code>public</code>文件夹，这个文件夹就是我们站点的根目录文件夹，后面nginx中部署时指定的根目录也是这个。如果想使用<code>github pages</code>只要将这个目录放在<code>github</code>托管，每次改完提交即可。</p>
 <pre><code>hugo
 </code></pre><h2 id="使用nginx部署">使用Nginx部署<a href="#使用nginx部署" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 <h3 id="安装nginx">安装Nginx<a href="#安装nginx" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
@@ -237,10 +232,10 @@ googleAnalytics = &quot;UA-166045776-1&quot;
 </code></pre><p>执行命令查看nginx版本</p>
 <pre><code>nginx -v
 </code></pre><h3 id="配置nginx">配置Nginx<a href="#配置nginx" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
-<p>修改<code>nginx</code>配置文件的用户，否则后面会出现权限问题</p>
+<p>修改nginx配置文件的用户，否则后面会出现权限问题</p>
 <pre><code>vi /etc/nginx/nginx.conf
 </code></pre><p>按i进入编辑模式</p>
-<p>修改<code>root nginx;</code>为<code>user  root;</code></p>
+<p>修改<code>user nginx;</code>为<code>user  root;</code></p>
 <p>按下Esc键，并输入<code>:wq</code>保存退出文件。</p>
 <p>修改配置文件</p>
 <pre><code>cd /etc/nginx/conf.d
@@ -259,7 +254,7 @@ vi default.conf
 <pre><code>systemctl start nginx
 </code></pre><p>运行以下命令设置Nginx服务开机自启动。</p>
 <pre><code>systemctl enable nginx
-</code></pre><p>这样服务端<code>Nginx</code>就配置完成了，要想通过<code>kingram.top</code>访问，还需要关闭防火墙（或者配置端口）、配置dns解析、配置阿里云端口安全组（80端口）等操作，我是直接关了防火墙</p>
+</code></pre><p>这样服务端Nginx就配置完成了，要想通过kingram.top访问，还需要关闭防火墙（或者配置端口）、配置dns解析、配置阿里云端口安全组（80端口）等操作，我是直接关了防火墙</p>
 <h3 id="关闭防火墙">关闭防火墙<a href="#关闭防火墙" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
 <p>永久关闭防火墙：</p>
 <pre><code>systemctl disable firewalld
@@ -279,14 +274,19 @@ vi default.conf
 				<p>
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="http://kingram.top/tags/blog">blog</a></span><span class="tag"><a href="http://kingram.top/tags/nginx">nginx</a></span>
 				</p>
-				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>477 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>476 Words</p>
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2021-07-13 08:00 &#43;0800</p>
 			</footer>
 		</article>
 		<div class="post-nav thin">
 		</div>
-		<div id="comments" class="thin">
-</div>
+		<div id="comments" class="thin"> <script src="https://utteranc.es/client.js"
+							repo="k1ngram4/myblog"
+							issue-term="pathname"
+							theme="github-light"
+							crossorigin="anonymous"
+							async>
+			</script></div>
 	</main>
 
 	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
